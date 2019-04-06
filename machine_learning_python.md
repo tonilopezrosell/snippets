@@ -192,3 +192,11 @@ clf_loaded = pickle.load(open("modelo.pickle","rb"))
 ndf = pd.read_csv("nuevosind.csv")
 clf_loaded.predict(ndf)
 ```
+## Support Vector Machines
+```python
+# Load the library
+from sklearn.svm import SVC
+# Create instance linear, poly, rbf
+clf = SVC(kernel = 'poly', C = 10)
+# Fit the data
+clf.fit(X,y)
