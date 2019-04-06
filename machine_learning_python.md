@@ -1,4 +1,6 @@
 # Machine Learning Snippets
+
+## REGRESSION
 ## Linear Regression
 ```python
 # Load the library
@@ -113,6 +115,8 @@ special_characters=True)
 graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
 Image(graph.create_png())
 ```
+
+## CLASSIFICATION
 ## Logistic Regression in sklearn
 ```python
 # Load the library
